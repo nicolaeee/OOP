@@ -114,17 +114,15 @@ public:
 };
 
 int main() {
-    Specie specie1;
-    specie1.citeste();
+    Specie specie1("Specie1", "Adresa1");
     specie1.afiseaza();
 
-    Mamifere mamifer1;
-    mamifer1.citeste();
+    Mamifere mamifer1("Mamifer1", "Adresa2", "10 ani", "Zona1");
     mamifer1.afiseaza();
 
-    Pasari pasare1;
-    pasare1.citeste();
+    Pasari pasare1("Pasare1", "Adresa3", "100g", "5 ani");
     pasare1.afiseaza();
 
     return 0;
 }
+
